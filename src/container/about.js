@@ -1,6 +1,7 @@
 import React from "react";
 import { About } from "../components";
 import cv from "../assets/cv/Mufamadi Rotondwa CV.pdf";
+import letter from "../assets/cv/jd letter.pdf";
 
 export default function AboutContainer() {
   return (
@@ -22,7 +23,9 @@ export default function AboutContainer() {
             <About.Link href={cv} target="_blank">
               Dawonload cv
             </About.Link>
-            <About.Link>Download cover letter</About.Link>
+            <About.Link href={letter} target="_blank">
+              Download cover letter
+            </About.Link>
           </About.Text>
         </About.Column>
         <About.Column>
