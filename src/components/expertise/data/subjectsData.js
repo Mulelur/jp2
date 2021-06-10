@@ -13,7 +13,7 @@ export const vut = [
   { sbj: "Social Intelligence " },
   { sbj: "Maths 1" },
   { sbj: "Physics 1" },
-  { sbj: "Electrical Engineering 1" },
+  { sbj: "Engineering Chemistry 1" },
   { sbj: "ICT Skills" },
   { sbj: "Applied Communication" },
 ];
